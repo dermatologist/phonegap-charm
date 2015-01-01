@@ -1,0 +1,7 @@
+
+.topcoat-icon--camera {
+    background: url("images/camera.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}

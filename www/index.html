@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="topcoat/css/topcoat-mobile-light.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <title>Charm</title>
+    </head>
+    <body>
+        <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item left quarter"></div>
+            <div class="topcoat-navigation-bar__item center half">
+                <h1 class="topcoat-navigation-bar__title">CHARM</h1>
+            </div>
+            <div class="topcoat-navigation-bar__item right quarter">
+                <a class="topcoat-icon-button--quiet camera-btn" href="#">
+                <span class="topcoat-icon topcoat-icon--camera"></span>
+                </a>
+            </div>
+        </div>
+        <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item center full">
+                <h2><span id="notification"></span></h2>
+            </div>
+        </div>
+        <div class="topcoat-button-bar">
+            <div class="topcoat-button-bar__item left quarter">
+                <button id="exposed" class="topcoat-button-bar__button--large">Exposed</button>
+            </div>
+            <div class="topcoat-button-bar__item right quarter">
+                <button id="unexposed" class="topcoat-button-bar__button--large">UnExposed</button>
+            </div>
+        </div>
+                 <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item center full">
+                <h2><span id="tan" class="topcoat-notification"></span></h2>
+            </div>
+        </div>
+        <p>
+        <b>Interpretation for ITA</b><br>
+        <ul>
+            <li>More than 55 [VERY FAIR]</li>
+            <li>42 to 55  [FAIR]</li>
+            <li>29 to 41  [MEDIUM]</li>
+            <li>11 to 28  [DARK]</li>
+            <li>-29 to 10 [BROWN]</li>
+            <li>Less than or = -30 [BLACK]</li>
+        </ul>
+        <b>Instructions</b><br>
+        <ul>
+            <li>Take a closeup view of sun exposed area (example: face) using camera icon. <b>INCLUDE ONLY THE SKIN IN THE FRAME.</b></li>
+            <li>Wait till an ITA value is displayed. (Takes upto 2 minutes)</li>
+            <li>Assign It to Exposed Area by clicking 'Exposed' Button</li>
+            <li>Repeat the process for an area not usually exposed to sun.(Example: inner arm) and click 'UnExposed' button.</li>
+            <li>Tan will be displayed for positive ITA values. (1 = No Tan, Higher the value, higher the Tan)</li>
+            <li>Uploads photo to server(Data Charges Apply).</li>
+            <li>Uploaded images will be used for improving algorithm.</li>
+            <li>Read Terms of Use and Instructions at http://gulfdoctor.net/charm</li>
+        </ul>
+        </p>
+        <img src="http://108.170.146.26/dermapp/phonegap_ad.jpg">
+        <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item center full">
+                <h5 class="topcoat-navigation-bar__title">GulfDoctor.net/charm</h5>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript">
+                            app.initialize();
+        </script>
+    </body>
+</html>
