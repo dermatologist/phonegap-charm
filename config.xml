@@ -2,10 +2,10 @@
 <widget id="com.nuchange.charm" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>charm</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Measure your skin color.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="charm@gulfdoctor.net" href="http://gulfdoctor.net/charm">
+        Bell Raj Eapen
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
