@@ -1,5 +1,5 @@
 (function() {
-    var serverURL = "http://108.170.146.26/dermapp/upload.php", // Upload Script on server
+    var serverURL = "http://gulfdoctor.net/charm/phonegap_upload.php", // Upload Script on server
         $notification = $('#notification'),
         $tan = $('#tan'),
 
@@ -8,7 +8,7 @@
             var myData = "image="+ randomName; //post variables
             jQuery.ajax({
                 type: "POST", // HTTP method POST or GET
-                url: "http://108.170.146.26/dermapp/analyse.php", //Where to make Ajax calls
+                url: "http://gulfdoctor.net/charm/phonegap_analyse.php", //Where to make Ajax calls
                 dataType: "text", // Data type, HTML, json etc.
                 data: myData, //post variables
                 success: function(response) {
